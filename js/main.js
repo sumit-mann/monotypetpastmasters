@@ -185,6 +185,7 @@ jQuery(function($) {
 		// Sliders Init
 		$('.gallery').owlCarousel({
 			items:1,
+			navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
 			dots: false,
 			nav:true,
 			lazyLoad:true,
